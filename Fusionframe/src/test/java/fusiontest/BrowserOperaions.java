@@ -9,7 +9,7 @@ public class BrowserOperaions {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		//Launch browser application and get title of the application
+		//Launch browser application (software) and get title of the application
 		driver.get("");
 		System.out.println("Title: " + driver.getTitle() );
 		
